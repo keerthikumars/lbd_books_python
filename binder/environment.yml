@@ -1,0 +1,12 @@
+channels:
+- conda-forge
+- masdeseiscaracteres
+dependencies:
+- pandas=0.20
+- numpy
+- ta-lib=0.4.17
+- pip:
+  - nsepy==0.6
+  - setuptools==39.2.0
+  - six==1.10.0
+  - lxml==3.8.0
